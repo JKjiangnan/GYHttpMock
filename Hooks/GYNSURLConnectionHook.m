@@ -6,10 +6,10 @@
 //  Copyright © 2016年 hypoyao. All rights reserved.
 //
 
-#import "GYNSURLHook.h"
+#import "GYNSURLConnectionHook.h"
 #import "GYMockURLProtocol.h"
 
-@implementation GYNSURLHook
+@implementation GYNSURLConnectionHook
 
 - (void)load {
     [NSURLProtocol registerClass:[GYMockURLProtocol class]];

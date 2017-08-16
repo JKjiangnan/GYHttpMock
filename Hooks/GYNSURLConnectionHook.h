@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "GYHttpClientHook.h"
 
-@interface GYNSURLHook : GYHttpClientHook
+@interface GYNSURLConnectionHook : GYHttpClientHook
 
 @end
